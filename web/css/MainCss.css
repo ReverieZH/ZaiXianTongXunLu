@@ -1,0 +1,239 @@
+body{
+    background:#2d2d2d;
+    font-family: sans-serif;
+    color:#FFF;
+}
+
+.all{
+    padding: 10px 80px;
+    width:1020px;
+    height: 750px;
+    border: 1px solid #666666;
+    margin: 0 auto;
+}
+
+.top{
+    width:1020px;
+    height: 100px;
+    border: 1px #FFFFFF;
+    float: left;
+}
+.top .context{
+    float: left;
+    background: #262423;
+    color: #FFFFFF;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.top .contracts{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.top .context .motto{
+    width: 200px;
+    height: 20px;
+    margin-top: 30px;
+    font-size:1px;
+    color: #FFFFFF;
+}
+ span{
+    font-size:1px;
+    color: #FFFFFF;
+}
+.top .img{
+    float: left;
+    background: url(../img/backGround.jpg);
+    width: 820px;
+    height: 100px;
+}
+
+.main{
+    float: left;
+    width:1020px;
+    height: 550px;
+}
+.left{
+    margin-top: 5px;
+    float: left;
+    width: 200px;
+    height: 500px;
+    border:solid 1px #666666;
+    border-radius:15px ;
+
+}
+.left ul li{
+    list-style-type:none;
+    margin:0px;
+}
+
+button{
+    border-radius: 15px;
+    color: #fff;
+    font-size: 10px;
+    width: 130px;
+    height: 30px;
+    background: #666666;
+    border: none;
+    outline:none;
+}
+
+
+.main .left .item{
+    margin-top: 15px;
+}
+.main .left h2{
+    margin-left:55px
+}
+
+
+.main .right{
+    margin-top: 5px;
+    float: left;
+    width:700px;
+    height: 500px;
+    margin-left:15px;
+    text-align: center;
+}
+
+
+
+
+.table_context{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    width:700px;
+    border-collapse:collapse;
+}
+
+.table_context td,.table_context th{
+    font-size:1em;
+    border:1px solid #666666;
+    padding:3px 7px 2px 7px;
+}
+.table_context th{
+    font-size:1.1em;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#666666;
+    color:#ffffff;
+}
+
+
+.select{
+    display:block;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    background:none;
+    border:1px solid #222;
+    outline:none;
+    -webkit-appearance:none;
+    padding:0 5px;
+    line-height:inherit;
+    color:inherit;
+    cursor:default;
+    font-size:14px;
+    position:relative;
+    z-index:3;
+}
+
+.select option{
+    color:#222;
+}
+.select option:hover{
+    color:#fff;
+}
+.select option:checked{
+    background:#535353;
+    color:#fff;
+}
+
+
+.selectDiv{
+    float: left ;
+    text-align: center;
+    width:700px;
+}
+
+.check_All{
+    height: 25px;
+    width: 60px;
+    float: left;
+    margin-right: 150px;
+}
+
+
+.selectstyle{
+    float: left;
+    display:block;
+    margin:0 auto;
+    overflow:hidden;
+    height:25px;
+    width:50px;
+    border-radius:0;
+    background:#535353 ;
+    background-size:auto 80%;
+    color:#fff;
+    position:relative;
+    z-index:1;
+}
+.selectStyle:before{
+    position:absolute;
+    z-index:1;
+    top:50%;
+    right:10px;
+    margin-top:-2.5px;
+    display:block;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:5px 5px 0 5px;
+    border-color:#fff transparent transparent transparent;
+    content:"";
+}
+/* 代码1 */
+.selectStyle:after{
+    position:absolute;
+    z-index:1;
+    top:50%;
+    right:10px;
+    margin-top:-3.5px;
+    display:block;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:5px 5px 0 5px;
+    border-color:#535353 transparent transparent transparent;
+    content:"";
+}
+
+.selectPage{
+    float: left;
+}
+
+
+
+.bootom{
+    text-align: center;
+    font-family: sans-serif;
+    color:#FFF;
+    width:1020px;
+    height: 100px;
+}
+
+.selectPage a{
+    color:  #e0c3fc;font-size: 13px;font-weight: 700;line-height: 24px;
+}
+.selectPage a:link{
+    color: #C1C1C1;
+}
+.selectPage a:hover{
+    color: #FFFFFF;
+}
+.selectPage a:active{
+    color: #d7d7d7;
+}
